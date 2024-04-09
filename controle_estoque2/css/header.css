@@ -1,0 +1,30 @@
+/* Estilo do cabeçalho */
+header {
+    background-color: #1b0d4d; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(0, 0, 0, 0.7); 
+    margin: 20px; /* Margem em todos os lados */
+}
+
+/* Estilo do título no cabeçalho */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao texto */
+}
+
+/* Estilo do link de navegação no cabeçalho */
+header nav a {
+    color: #1e90ff; /* Cor do texto */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilo do link ativo no cabeçalho */
+header nav a.active {
+    font-weight: bold;
+    text-decoration: underline; /* Sublinha o link ativo */
+}

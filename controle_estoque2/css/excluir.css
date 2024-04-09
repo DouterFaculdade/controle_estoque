@@ -1,0 +1,5 @@
+/* Estilos específicos para a página de exclusão de produtos */
+.mensagem-erro {
+    color: red;
+    font-weight: bold;
+}

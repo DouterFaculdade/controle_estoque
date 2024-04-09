@@ -1,0 +1,67 @@
+/* Reset de estilos para garantir consistência entre os navegadores */
+body {
+    height: 96vh;
+    font-family: 'Poppins', sans-serif;
+    color: #1e90ff; /* Cor do texto */
+    background-image: url('../images/controle-projeto.png');
+    background-size: cover; /* Para cobrir toda a área */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    background-position: center center; /* Centraliza a imagem */
+}
+
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #1e90ff; /* Azul */
+}
+
+/* Estilo do título */
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    color: #1e90ff;
+}
+
+/* Estilo do formulário */
+form {
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding-top: 40px;
+    max-width: 400px; /* Largura máxima */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #1b0d4d; /* Fundo branco */
+    padding: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    font-weight: bold;
+}
+
+/* Estilo dos campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="file"],
+button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que o padding não altere a largura total */
+}
+
+/* Estilo do botão */
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilo do botão no hover */
+button:hover {
+    background-color: #0056b3;
+}

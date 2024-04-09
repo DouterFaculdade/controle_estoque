@@ -1,0 +1,69 @@
+/* Estilo da página */
+body {
+    height: 96vh;
+   
+    font-family: 'Poppins', sans-serif;
+    color: #1e90ff; /* Cor do texto */
+    background-image: url('../images/controle-projeto.png');
+    background-size: cover; /* Para cobrir toda a área */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    background-position: center center; /* Centraliza a imagem */
+}
+
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: #1e90ff; /* Azul */
+}
+
+/* Estilo da lista de produtos */
+.lista-produtos {
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding-top: 40px;
+    max-width: 800px; /* Largura máxima */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #1b0d4d; /* Fundo branco */
+    padding: 20px;
+}
+
+/* Estilo da tabela */
+.lista-produtos table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilo das células da tabela */
+.lista-produtos table th,
+.lista-produtos table td {
+    border: 1px solid #1e90ff; /* Borda */
+    padding: 12px; /* Espaçamento interno */
+    text-align: left;
+}
+
+/* Estilo das células do cabeçalho da tabela */
+.lista-produtos table th {
+    background-color: #1e90ff; /* Fundo cinza claro */
+    color: #1b0d4d; /* Texto */
+}
+
+/* Estilo dos botões dentro da tabela */
+.lista-produtos table button {
+    background-color: #1e90ff; /* Azul */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s; /* Transição suave */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo dos botões no hover */
+.lista-produtos table button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}
