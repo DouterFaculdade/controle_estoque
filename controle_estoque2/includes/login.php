@@ -35,7 +35,7 @@ if (isset($_POST['login'])) {
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <header>
-    <h1>Seu Cabeçalho</h1>
+    <h1>Controle de Estoque</h1>
     <nav>
         <a href="index.php">Página Inicial</a>
         <a href="../controle_estoque2/pages/adicionar.php">Adicionar</a>

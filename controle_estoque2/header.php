@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <h1>Seu Cabeçalho</h1>
+        <h1>Controle de Estoque</h1>
         <nav>
             <a href="../index.php">Página Inicial</a>
             <a href="../pages/adicionar.php">Adicionar</a>
